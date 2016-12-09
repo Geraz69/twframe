@@ -1,0 +1,72 @@
+/* General */
+
+body {
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  font-size: smaller;
+  color: #545454;
+}
+
+a:link {
+  color: #1a0dab;
+}
+
+a:visited {
+  color: #609;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content > div {
+  width: 640px;
+}
+
+/* Player */
+
+#player.normal {
+  width: 640px;
+  height: 360px;
+}
+
+#player.minimized {
+  width: 240px;
+  height: 135px;
+}
+
+/* Comments */
+
+.tile, .tiles > div {
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  padding: 4px;
+}
+
+.comment > p {
+  display: inline;
+}
+
+.comment > a {
+  display: block;
+  margin-top: 4px;
+  font-size: smaller;
+}
+
+.arrow {
+  background: transparent url(/img/arrows.png) no-repeat;
+  background-size: 32px;
+  background-origin: content-box;
+  background-clip: content-box;
+  height: 12px;
+  padding: 4px;
+}
+
+.arrow.up {
+  background-position: center top;
+}
+
+.arrow.down {
+  background-position: center bottom;
+}
+
